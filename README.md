@@ -1,5 +1,6 @@
 # Token creator
 Token Creator dapp allows users to create and deploy their own ERC-20 token.
+
 This application integrates the UNS functionality "Login With Unstoppable"
 
 Video demo : https://youtu.be/tSl2c6dn_Ds
