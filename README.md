@@ -1,9 +1,11 @@
 # Token creator
-Token Creator dapp allows you to create and deploy your own ERC-20 token.
+Token Creator dapp allows users to create and deploy their own ERC-20 token.
 
-The application integrates the UNS functionality "[Login With Unstoppable](https://docs.unstoppabledomains.com/login-with-unstoppable/)"
+This application integrates the UNS functionality "[Login With Unstoppable](https://docs.unstoppabledomains.com/login-with-unstoppable/)"
 
-* Video demo : https://youtu.be/tSl2c6dn_Ds
+Video demo : https://youtu.be/tSl2c6dn_Ds
+
+Contact :
 * Discord ID : Nma#7520
 * UnstoppableDomain account email : manrique.nico@gmail.com
 
