@@ -3,7 +3,7 @@ import { ethers } from 'ethers';
 import './TokenCreator.css';
 import contractInfo from './TokenCreator.json';
 
-const CLIENT_ID = 'c04b6d41-2e8d-4509-9196-52e31473b81e';
+const CLIENT_ID = '';
 
 let uri = window.location.origin
 let loggedUser;

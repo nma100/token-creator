@@ -11,7 +11,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 });
 
 // Unsafe MM Account
-const PRIVATE_KEY = '72483587cdfc82a43cd770661f720c5c2e5bcc57324c7bf3749d3d6f78df81b1';
+const PRIVATE_KEY = '';
 
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
@@ -24,20 +24,8 @@ module.exports = {
   defaultNetwork: 'mumbai',
   networks: {
     hardhat: {},
-    ropsten: {
-      url: "https://eth-ropsten.alchemyapi.io/v2/k-gshmWG-W3hKlqh4QCFQwYPLG-SC_sa",
-      accounts: [`${PRIVATE_KEY}`]
-    },
-    rinkeby: {
-      url: "https://eth-rinkeby.alchemyapi.io/v2/j5FjpmRD99l03RHVvxOF9kf_w-o0M2DB",
-      accounts: [`${PRIVATE_KEY}`]
-    },
-    goerli: {
-      url: "https://eth-goerli.alchemyapi.io/v2/IC7HgwbMKMVdxCGdBzPnd_3gBhVgN5aU",
-      accounts: [`${PRIVATE_KEY}`]
-    },
     mumbai : {
-      url: "https://polygon-mumbai.g.alchemy.com/v2/iJVVRCrmruzW0pHZ_QX5w0KFLOnWyk9O",
+      url: "",
       accounts: [`${PRIVATE_KEY}`]
     }
   },
