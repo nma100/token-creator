@@ -1,15 +1,27 @@
 # Token creator
-Token creator dapp using UNS "Login With Unstoppable"
+Token Creator dapp allows you to create and deploy your own ERC-20 token.
 
-## Video demo
+The application integrates the UNS functionality "Login With Unstoppable"
 
-## Site demo
+* Video demo :
+* Site demo : http://token-creator.mywire.org/
+* Github repo :https://github.com/nma100/token-creator
+* Discord ID : Nma#7520
+* UnstoppableDomain account email : manrique.nico@gmail.com
 
-## Github repo
-https://github.com/nma100/token-creator
+## Build
 
-## Discord ID
-Nma#7520
+Install dependencies :
+```
+npm install
+```
 
-## UnstoppableDomain registered account email address 
-manrique.nico@gmail.com
+Start development server :
+```
+npm start
+```
+
+Production build :
+```
+npm run build
+```
