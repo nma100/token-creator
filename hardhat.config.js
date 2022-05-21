@@ -11,7 +11,7 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 });
 
 // Unsafe MM Account
-const PRIVATE_KEY = '';
+const PRIVATE_KEY = '72483587cdfc82a43cd770661f720c5c2e5bcc57324c7bf3749d3d6f78df81b1';
 
 // You need to export an object to set up your config
 // Go to https://hardhat.org/config/ to learn more
@@ -25,7 +25,7 @@ module.exports = {
   networks: {
     hardhat: {},
     mumbai : {
-      url: "",
+      url: "https://polygon-mumbai.g.alchemy.com/v2/iJVVRCrmruzW0pHZ_QX5w0KFLOnWyk9O",
       accounts: [`${PRIVATE_KEY}`]
     }
   },

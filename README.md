@@ -5,7 +5,9 @@ This application integrates the UNS functionality "Login With Unstoppable"
 
 Video demo : https://youtu.be/tSl2c6dn_Ds
 
-Contact :
+Site demo : https://token-creator-five.vercel.app
+
+## Contact information
 * Discord ID : Nma#7520
 * UnstoppableDomain account email : manrique.nico@gmail.com
 
@@ -19,6 +21,11 @@ npm install
 Create production build :
 ```
 npm run build
+```
+
+Start development server :
+```
+npm start
 ```
 
 ## Libraries
